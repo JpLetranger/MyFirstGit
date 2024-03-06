@@ -1,0 +1,357 @@
+Una empresa quiere proteger sus aplicaciones web de los exploits web más comunes que pueden afectar a la disponibilidad, comprometer la seguridad o consumir demasiados recursos. ¿Qué servicio de AWS deberían utilizar?
+1/1
+Auto Scaling Groups (ASG)
+Shield
+CloudHSM
+Web Application Firewall (WAF)
+ 
+Comentarios
+AWS WAF es un firewall de aplicaciones web que ayuda a proteger tus aplicaciones web o APIs contra exploits web comunes que pueden afectar a la disponibilidad, comprometer la seguridad o consumir excesivos recursos.
+
+¿Dónde puedes encontrar acceso bajo demanda a la documentación de la normativa de AWS y a los acuerdos de AWS?
+1/1
+Artifact
+ 
+Secrets Manager
+Modelo de responsabilidad compartida
+Inspector
+Comentarios
+AWS Artifact es tu recurso central para la información relacionada con la normativa que te interesa.
+
+Puedes realizar cualquier tipo de prueba de penetración en cualquier servicio de AWS sin aprobación previa
+1/1
+Verdadero
+Falso
+ 
+Comentarios
+Las pruebas de penetración están permitidas sin aprobación previa en 8 servicios. El DDoS, la inundación de puertos y la inundación de protocolos son ejemplos de actividades prohibidas.
+
+Quieres registrar las configuraciones y los cambios a lo largo del tiempo. ¿Qué servicio te permite hacerlo?
+1/1
+Config
+ 
+Inspector
+GuarDuty
+Secrets Manager
+Comentarios
+AWS Config es un servicio que te permite valorar, auditar y evaluar las configuraciones de tus recursos de AWS.
+
+
+Una empresa quiere asegurar las comunicaciones de red mediante certificados SSL y TLS. ¿Qué servicio de AWS puede utilizar?
+1/1
+Certificate MAnager (ACM)
+ 
+Secrets Manager
+Macie
+WAF
+Comentarios
+AWS Certificate Manager es un servicio que te permite aprovisionar, administrar e implementar fácilmente certificados públicos y privados de Secure Sockets Layer/Transport Layer Security (SSL/TLS) para utilizarlos con los servicios de AWS y tus recursos internos conectados
+
+Según el Modelo de Responsabilidad Compartida, ¿quién es responsable de la gestión de parches?
+1/1
+AWS
+El cliente
+AWS y el cliente
+ 
+Comentarios
+AWS es responsable de poner parches y arreglar los fallos de la infraestructura, pero los clientes son responsables de poner parches a su sistema operativo y a sus aplicaciones. Los controles compartidos también incluyen la gestión de la configuración y la concienciación y formación.
+
+Quieres automatizar de forma centralizada las comprobaciones de seguridad en varias cuentas de AWS. ¿Qué servicio de AWS puedes utilizar?
+0/1
+Macie
+ 
+Detective
+CloudTrail
+Security Hub
+Respuesta correcta
+Security Hub
+Comentarios
+Debes volver a intentarlo
+
+¿Cuál de los siguientes servicios está gestionado por AWS y se utiliza para administrar las claves de cifrado?
+1/1
+CloudHSM
+KMS
+ 
+AWS Secrets Maneger
+IAM
+Comentarios
+AWS KMS es un servicio gestionado que te permite crear y controlar fácilmente las claves utilizadas para las operaciones criptográficas. Está gestionado por AWS.
+
+Una empresa quiere automatizar la seguridad en las instancias EC2 para evaluar la seguridad y las vulnerabilidades de estas instancias. ¿Qué servicio de AWS debería utilizar?
+1/1
+Config
+Truested Advisor
+Inspector
+ 
+Systems Manager
+Comentarios
+Amazon Inspector es un servicio automatizado de evaluación de la seguridad que ayuda a mejorar la seguridad y la normativa de las aplicaciones desplegadas en AWS. Te ayuda a testar la accesibilidad a la red de tus instancias de Amazon EC2 y el estado de seguridad de tus aplicaciones que se ejecutan en las instancias.
+
+¿Cuál de las siguientes acciones NO requiere el usuario root?
+0/1
+Cierra tu cuenta de AWS
+Cambia tu plan de soporte de AWS
+ 
+Registrarte como vendedor en el Marketplace
+Accede al dashboard de facturacion
+Respuesta correcta
+Accede al dashboard de facturacion
+Comentarios
+Debes volver a intentarlo
+
+
+Según el Modelo de Responsabilidad Compartida, ¿quién es responsable de proteger el hardware?
+0/1
+AWS
+El cliente
+AWS y el cliente
+ 
+Respuesta correcta
+AWS
+Comentarios
+Debes repasar mas
+
+
+¿Qué tipo de instancia de Amazon EC2 es adecuada para las aplicaciones de almacenamiento de datos?
+1/1
+Almacenamiento optimizado
+ 
+Uso general
+Computo optimizado
+Memoria optimizada
+Comentarios
+Buen trabajo las bases de datos necesitan un mejor almacenamiento
+
+¿Qué afirmación describe mejor una zona de disponibilidad?
+1/1
+Un área geográfica que contiene recursos de AWS
+Un único centro de datos o grupo de centros de datos dentro de una región
+ 
+Un centro de datos que utiliza un servicio de AWS para realizar operaciones específicas de servicios
+Un servicio que puede utilizar para iniciar la infraestructura de AWS en su propio centro de datos en las instalaciones con un enfoque híbrido
+Comentarios
+Buen trabajo
+
+
+¿Qué afirmación es VERDADERA para la infraestructura global de AWS?
+1/1
+Una región consta de una única zona de disponibilidad.
+Una zona de disponibilidad consta de dos o más regiones.
+Una región consta de tres o más zonas de disponibilidad.
+ 
+Una zona de disponibilidad consta de una única región.
+Comentarios
+Buen trabajo
+
+
+¿Qué afirmación describe mejor a Amazon CloudFront?
+1/1
+Un servicio que le permite ejecutar la infraestructura con un enfoque de nube híbrida
+Un motor de cómputo sin servidor para contenedores
+Un servicio que permite enviar y recibir mensajes entre componentes de software a través de una cola
+Un servicio de entrega de contenido global
+ 
+Comentarios
+Amazon CloudFront es un servicio de entrega de contenido. Utiliza una red de ubicaciones de borde para almacenar contenido en la caché y entregar contenido a clientes de todo el mundo. Cuando el contenido se almacena en caché, se almacena localmente como una copia. Este contenido podría ser archivos de video, fotos, páginas web, entre otros.
+
+
+¿Qué sitio utiliza Amazon CloudFront para almacenar copias de contenido en caché y entregarlo más rápido a los usuarios en cualquier ubicación?
+0/1
+Región
+ 
+Zona de disponibilidad
+Ubicación perimetral
+Origen
+Respuesta correcta
+Ubicación perimetral
+Comentarios
+Debes repasar mas este servicio
+
+
+¿Qué afirmación describe mejor la lista de control de acceso a la red predeterminada de una cuenta de AWS?
+0/1
+Es sin estado y permite todo el tráfico entrante y saliente
+Es con estado y deniega todo el tráfico entrante y saliente.
+Es con estado y permite todo el tráfico entrante y saliente.
+Es sin estado y deniega todo el tráfico entrante y saliente.
+ 
+Respuesta correcta
+Es sin estado y permite todo el tráfico entrante y saliente
+Comentarios
+Debes repasar mas las ACL
+
+
+¿Qué enunciado describe mejor la resolución de DNS?
+1/1
+Lanzamiento de recursos en una red virtual que defina
+Almacenamiento de copias locales de contenido en ubicaciones de borde alrededor del mundo
+Conexión de una VPC a Internet
+Traducción de un nombre de dominio a una dirección IP
+ 
+Comentarios
+Por ejemplo, si quiere visitar el sitio web de perritosCompany, ingrese el nombre del dominio en su equipo, y esta solicitud se envía a un servidor DNS. A continuación, el servidor DNS solicita al servidor web la dirección IP que corresponde al sitio web de perritosCompany. El servidor web responde con el envío de la dirección IP del sitio web de perritosCompany, 192.0.2.0.
+
+
+
+Su empresa tiene una aplicación que utiliza instancias de Amazon EC2 para ejecutar el sitio web orientado al cliente y las instancias de base de datos de Amazon RDS para almacenar la información personal de los clientes. ¿Cómo debe configurar el desarrollador la VPC de acuerdo con las prácticas recomendadas?
+1/1
+Debe colocar las instancias de Amazon EC2 en una subred privada y las instancias de la base de datos de Amazon RDS en una subred pública.
+Debe colocar las instancias de Amazon EC2 en una subred pública y las instancias de base de datos de Amazon RDS en una subred privada.
+Debe colocar las instancias de Amazon EC2 y las instancias de base de datos de Amazon RDS en una subred pública.
+Debe colocar las instancias de Amazon EC2 y las instancias de la base de datos de Amazon RDS en una subred privada
+
+Comentarios
+Una subred es una sección de una VPC en la que se pueden agrupar recursos en función de las necesidades operativas o de seguridad. Las subredes pueden ser públicas o privadas.
+
+Las subredes públicas contienen recursos a los que debe poder acceder el público, como un sitio web de una tienda en línea.
+
+Las subredes privadas contienen recursos a los que solo se debe tener acceso a través de la red privada, como una base de datos que contiene la información personal de los clientes y los historiales de pedidos.
+
+
+¿Qué componente se puede utilizar para establecer una conexión privada dedicada entre el centro de datos de su empresa y AWS?
+1/1
+Subred privada
+DNS
+AWS Direct Connect
+ 
+Puerta de enlace virtual
+Comentarios
+Buen trabajo
+
+
+¿Qué afirmación describe mejor los grupos de seguridad?
+1/1
+Tienen estado y niegan todo el tráfico entrante de forma predeterminada.
+ 
+Tienen estado y permiten todo el tráfico entrante de forma predeterminada.
+No tienen estado y niegan todo el tráfico entrante de forma predeterminada.
+No tienen estado y permiten todo el tráfico entrante de forma predeterminada.
+Comentarios
+Los grupos de seguridad cuentan con estado. Esto significa que utilizan patrones y flujos de tráfico anteriores al momento de evaluar nuevas solicitudes para una instancia.
+De forma predeterminada, los grupos de seguridad niegan todo el tráfico entrante, pero puede agregar reglas personalizadas que se ajusten a sus necesidades operativas y de seguridad.
+
+
+¿Qué componente se utiliza para conectar una VPC a Internet?
+1/1
+Subred pública
+Ubicación perimetral
+Grupo de seguridad
+Puerta de enlace de Internet
+ 
+Comentarios
+buen trabajo
+
+¿Qué servicio se utiliza para administrar los registros de DNS de los nombres de dominio?
+1/1
+Amazon Virtual Private Cloud
+AWS Direct Connect
+Amazon CloudFront
+Amazon Route 53
+ 
+Comentarios
+Amazon Route 53 es un servicio web de DNS. Ofrece a los desarrolladores y a las empresas una forma fiable de dirigir a los usuarios finales a aplicaciones de Internet alojadas en AWS.
+Otra característica de Route 53 es la capacidad de administrar los registros de DNS de los nombres de dominio. Puede transferir registros de DNS de nombres de dominio existentes administrados por otros registradores de dominios. También puede registrar nuevos nombres de dominio directamente en Route 53.
+
+
+¿Qué tareas son responsabilidad de los clientes? (Seleccione DOS opciones).
+1/1
+Mantenimiento de la infraestructura de red
+Aplicación de parches de software en instancias Amazon EC2
+ 
+Implementación de controles de seguridad física en centros de datos
+Configuración de permisos para objetos de Amazon S3
+ 
+Mantenimiento de servidores que ejecutan instancias de Amazon EC2
+Comentarios
+buen trabajo bien identificadas
+
+
+
+Supongamos que está configurando políticas de control de servicios (SCP) en AWS Organizations. ¿A qué identidades y recursos se pueden aplicar las SCP? (Seleccione DOS opciones).
+1/1
+Usuarios de IAM
+Grupos de IAM
+Una cuenta de miembro individual
+ 
+Roles de IAM
+Una unidad organizativa (OU)
+ 
+Comentarios
+Buen trabajo
+En AWS Organizations, puede aplicar políticas de control de servicios (SCP) a la raíz de la organización, una cuenta de miembro individual o una OU. Una SCP afecta a todos los usuarios, grupos y roles de IAM dentro de una cuenta, incluido el usuario raíz de la cuenta de AWS.
+Puede aplicar políticas de IAM a los usuarios, grupos o roles de IAM. No puede aplicar una política de IAM al usuario raíz de la cuenta de AWS.
+
+
+
+¿Qué tareas se pueden completar en AWS Artifact? (Seleccione DOS opciones).
+1/1
+Acceder a informes de cumplimiento de AWS bajo demanda.
+ 
+Consolidar y administrar varias cuentas de AWS en una ubicación central
+Crear usuarios para permitir que las personas y las aplicaciones interactúen con los servicios y recursos de AWS.
+Establecer permisos para las cuentas mediante la configuración de políticas de control de servicios (SCP).
+Revisar, aceptar y administrar los acuerdos con AWS.
+ 
+Comentarios
+Las otras respuestas son incorrectas porque:
+
+-Consolidar y administrar varias cuentas de AWS en una ubicación central: esta tarea se puede completar en AWS Organizations.
+
+-Crear usuarios para permitir que las personas y las aplicaciones interactúen con los servicios y recursos de AWS: esta tarea se puede completar en AWS Identity and Access Management (IAM).
+
+-Establecer permisos para las cuentas mediante la configuración de políticas de control de servicios (SCP): esta tarea se puede completar en AWS Organizations.
+
+
+
+¿Qué declaración describe mejor una política de IAM?
+1/1
+Un proceso de autenticación que proporciona una capa adicional de protección para su cuenta de AWS
+Un documento que concede o deniega permisos para los servicios y recursos de AWS
+ 
+Una identidad que puede asumir para obtener acceso temporal a los permisos
+La identidad que se establece al crear por primera vez una cuenta de AWS
+Comentarios
+Las políticas de IAM le proporcionan flexibilidad para personalizar los niveles de acceso a los recursos de los usuarios. Por ejemplo, puede permitir que los usuarios accedan a todos los buckets de Amazon S3 de su cuenta de AWS o solo a un bucket específico.
+
+
+Un empleado necesita acceso temporal para crear varios buckets de Amazon S3. ¿Cuál sería la mejor opción para esta tarea?
+1/1
+Usuario raíz de la cuenta de AWS
+Grupo de IAM
+Rol de IAM
+ 
+Política de control de servicios (SCP)
+Comentarios
+Un rol de IAM es una identidad que puede asumir para obtener acceso temporal a los permisos. Cuando alguien asume un rol de IAM, abandona todos los permisos que tenía en un rol anterior y asume los permisos del nuevo rol. Los roles de IAM son ideales para situaciones en las que el acceso a los servicios o recursos debe concederse de manera temporal, en lugar de a largo plazo.
+
+
+
+
+¿Qué afirmación describe mejor el principio del mínimo privilegio?
+1/1
+Añadir un usuario de IAM a al menos un grupo de IAM
+Comprobar los permisos de un paquete con respecto a una lista de control de acceso
+Conceder solo los permisos necesarios para realizar tareas específicas
+ 
+Realizar un ataque de denegación de servicio que se origina desde al menos un dispositivo
+Comentarios
+Cuando concede permisos mediante la adopción del principio de mínimo privilegio, impide que los usuarios o roles tengan más permisos de los necesarios para realizar las tareas de trabajo específicas. Por ejemplo, los cajeros de la cafetería deben tener acceso al sistema de caja registradora. Como práctica recomendada, conceda a los usuarios y roles de IAM un conjunto mínimo de permisos y conceda permisos adicionales según sea necesario.
+
+
+¿Qué servicio ayuda a proteger las aplicaciones contra los ataques de denegación de servicio distribuido (DDoS)?
+1/1
+Amazon GuardDuty
+Amazon Inspector
+AWS Artifact
+AWS Shield
+ 
+Comentarios
+A medida que el tráfico de red llega a las aplicaciones, AWS Shield utiliza diversas técnicas de análisis para detectar posibles ataques DDoS en tiempo real y mitigarlos automáticamente.
+
+
+
+
+
+
+
